@@ -40,8 +40,8 @@ The application was developed in Unity 2022.3.15f1 LTS for Android and evaluated
 | Android | API 24+ | Target platform |
 | Google Gemini API | gemini-2.0-flash | Clue rephrasing + Vision arrival confirmation |
 | Vuforia Engine | 11.4.4 | AR framework (integrated, evaluated during development) |
-| TextMeshPro | — | UI text rendering |
-| C# | — | Scripting language |
+| TextMeshPro | - | UI text rendering |
+| C# | - | Scripting language |
 | Python | 3.x | Database export + results analysis |
 
 
