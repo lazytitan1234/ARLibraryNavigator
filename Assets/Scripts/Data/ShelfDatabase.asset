@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8d6d6380d3c8a4db467bac5bd88083, type: 3}
+  m_Name: ShelfDatabase
+  m_EditorClassIdentifier:
+  shelves:
+  - shelfID: L2-A1
+    floor: 2
+    markerNodeID: L2_SectionA
+    displayLocation: "Level 2, Section A \u2013 Computing (Dewey 000\u2013099)"
+    topicLabels:
+    - Computing
+  - shelfID: L2-B1
+    floor: 2
+    markerNodeID: L2_SectionB
+    displayLocation: "Level 2, Section B \u2013 History (Dewey 900\u2013999)"
+    topicLabels:
+    - History
+  - shelfID: L3-A1
+    floor: 3
+    markerNodeID: L3_Stairs
+    displayLocation: "Level 3, Section A \u2013 Natural Sciences (Dewey 500\u2013599)"
+    topicLabels:
+    - Natural Sciences
+  - shelfID: L3-A2
+    floor: 3
+    markerNodeID: L3_Stairs
+    displayLocation: "Level 3, Section A \u2013 Mathematics (Dewey 510\u2013519)"
+    topicLabels:
+    - Mathematics
+  - shelfID: L3-B1
+    floor: 3
+    markerNodeID: L3_Stairs
+    displayLocation: "Level 3, Section B \u2013 Social Sciences (Dewey 300\u2013399)"
+    topicLabels:
+    - Social Sciences
+  - shelfID: L3-B2
+    floor: 3
+    markerNodeID: L3_Stairs
+    displayLocation: "Level 3, Section B \u2013 Literature (Dewey 800\u2013899)"
+    topicLabels:
+    - Literature

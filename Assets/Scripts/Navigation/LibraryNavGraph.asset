@@ -1,0 +1,399 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b3f38b2269f6184f9eb6d8e2ddb4263, type: 3}
+  m_Name: LibraryNavGraph
+  m_EditorClassIdentifier: 
+  nodes:
+  - nodeID: L2_Entrance
+    markerName: ImageTarget_L2_Entrance
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: "Level 2 \u2013 Entrance"
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: Glass sliding doors and security turnstiles at the entrance.
+      Reception desk with computer monitors on the right. Linoleum floor tiles. Directory
+      sign on the left wall listing floor contents.
+  - nodeID: L2_SectionA
+    markerName: ImageTarget_L2_SectionA
+    floor: 2
+    worldPosition: {x: 5, y: 0}
+    displayLabel: "Level 2 \u2013 Section A (Computing)"
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: Metal shelving units with blue spine labels in the 000-099
+      Dewey range (Computing and Information Science). Cable management trays visible
+      on the floor. Large window on the south wall. End-cap display with technology
+      titles.
+  - nodeID: L2_SectionB
+    markerName: ImageTarget_L2_SectionB
+    floor: 2
+    worldPosition: {x: 5, y: 8}
+    displayLabel: "Level 2 \u2013 Section B (History)"
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: Shelving with orange spine labels in the 900-999 Dewey range
+      (History and Geography). Globe and atlas books visible on the end-cap shelf.
+      Grey carpet tiles. Study carrels along the far wall.
+  - nodeID: L2_Stairs
+    markerName: ImageTarget_L2_Stairs
+    floor: 2
+    worldPosition: {x: 10, y: 4}
+    displayLabel: "Level 2 \u2013 Stairs"
+    isStairNode: 1
+    linkedStairNodeID: L3_Stairs
+    visualDescription: Stairwell opening with metal handrails on both sides. Level
+      number signage on the wall. Fire exit door visible nearby. Concrete steps leading
+      upward. Yellow fire safety equipment bracket on the wall.
+  - nodeID: L3_Stairs
+    markerName: ImageTarget_L3_Stairs
+    floor: 3
+    worldPosition: {x: 10, y: 4}
+    displayLabel: "Level 3 \u2013 Stairs Landing"
+    isStairNode: 1
+    linkedStairNodeID: L2_Stairs
+    visualDescription: Top of stairwell landing on the upper floor. Open-plan library
+      area visible ahead with lower ceiling than ground floor. Level 3 sign on the
+      wall. Natural light from skylights or high windows. Carpet floor.
+  - nodeID: SHELF_17
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 17 — Accounting / General Management'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_9
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 9 — Building Materials / Architecture'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_15
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 15 — Business / Management / HR'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_14
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 14 — Chemistry / Engineering'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_22
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 22 — Communications / Computer / Mechanical Engineering'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_24
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 24 — Disease / Engineering Materials'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_21
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 21 — Electrical Engineering / Electronics'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_13
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 13 — Engineering / Chemical Technology'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_12
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 12 — History / Geography / Travel'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_10
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 10 — History'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_18
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 18 — Home Economics / Business Services'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_4
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 4 — Management / Business'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_16
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 16 — Mathematics / Physics'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_20
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 20 — Naval Architecture / Civil Engineering'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_23
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 23 — Technology / Medicine / Health'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_19
+    markerName: 
+    floor: 2
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 19 — Transport / Aerospace / Automotive'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B1_07
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B1_07 — Arts / Design / Music / Sport'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_30
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 30 — Biology / Physics / Chemistry / Earth Science'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B1_03
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B1_03 — Bound Magazines'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_37
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 37 — Economics'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B6_32
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B6_32 — Education / Primary Education'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B1_02
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B1_02 — Encyclopedias'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B2_11
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B2_11 — English Fiction / Curriculum / Journals'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B5_27
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B5_27 — English Fiction Authors A-C'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B5_26
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B5_26 — English Fiction Authors C-H / H-M'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B5_25
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B5_25 — English Fiction Authors M-S / S-Z'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B5_28
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B5_28 — Films Numbers A-D / E-M'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_40
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 40 — Knowledge / Research Methods / Computer Science'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_31
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 31 — Languages / English / German / Maltese'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B6_33
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B6_33 — Maltese Fiction'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B1_05
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B1_05 — Marketing / Industrial Technology'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_29
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 29 — Mathematics / Physics / Astronomy'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_41
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf 41 — Software / Programming'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_B1_08
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf B1_08 — Sports / Literature'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_U10
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf U10 — U10 - Law, Public Administration, Military & Social Services'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_U19
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf U19 — U19 - Education, Commerce, Transportation & Language'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_U7
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf U7 — U7 - Library Science, General Works, Philosophy & Psychology'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_U8
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf U8 — U8 - Ethics, Religion, Social Sciences, Sociology & Politics'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  - nodeID: SHELF_U9
+    markerName: 
+    floor: 1
+    worldPosition: {x: 0, y: 0}
+    displayLabel: 'Shelf U9 — U9 - Economics, Macroeconomics & Law'
+    isStairNode: 0
+    linkedStairNodeID: 
+    visualDescription: '[PLACEHOLDER - update after library visit]'
+  edges:
+  - fromNodeID: L2_Entrance
+    toNodeID: L2_SectionA
+    cost: 5
+    isBidirectional: 1
+  - fromNodeID: L2_SectionA
+    toNodeID: L2_SectionB
+    cost: 8
+    isBidirectional: 1
+  - fromNodeID: L2_Entrance
+    toNodeID: L2_Stairs
+    cost: 12
+    isBidirectional: 1
+  - fromNodeID: L2_SectionA
+    toNodeID: L2_Stairs
+    cost: 7
+    isBidirectional: 1
+  - fromNodeID: L2_Stairs
+    toNodeID: L3_Stairs
+    cost: 3
+    isBidirectional: 1

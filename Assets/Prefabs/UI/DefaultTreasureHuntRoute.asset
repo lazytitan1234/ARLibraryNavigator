@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e3097473bed334894d638aae3378c7, type: 3}
+  m_Name: DefaultTreasureHuntRoute
+  m_EditorClassIdentifier: 
+  routeName: Library Treasure Hunt
+  clues:
+  - targetNodeID: L2_SectionA
+    rawClueText: I hold knowledge of machines and code. My shelves are labelled in
+      the 000s. Find me on Level 2 near the large south window.
+    geminiClueText:
+    useGeminiRephrasing: 1
+  - targetNodeID: L2_SectionB
+    rawClueText: Wars, empires and ancient civilisations live here. Look for orange
+      spine labels in the 900s. Study carrels line the far wall.
+    geminiClueText:
+    useGeminiRephrasing: 1
+  - targetNodeID: L2_Stairs
+    rawClueText: Your final destination is not a shelf at all. Find the metal handrails
+      and the way between floors on Level 2.
+    geminiClueText:
+    useGeminiRephrasing: 1

@@ -1,0 +1,3 @@
+<linker>
+  <assembly fullname="Vuforia.UnityExtensions" preserve="all"/>
+</linker>

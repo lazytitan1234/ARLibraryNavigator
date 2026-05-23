@@ -1,0 +1,42 @@
+# Unity generated
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Vuforia generated
+/QCAR/
+
+# Plastic SCM
+/.plastic/
+/ignore.conf
+
+# Visual Studio
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.booproj
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Accidental files
+nul
+
+# APK files
+*.apk
+*.aab
+
+# API Keys - NEVER upload these
+Assets/Resources/gemini_api_key.txt
+Assets/Resources/gemini_api_key.txt.meta
+
+Packages/com.ptc.vuforia.engine-11.4.4.tgz

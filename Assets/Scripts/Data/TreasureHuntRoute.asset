@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e3097473bed334894d638aae3378c7, type: 3}
+  m_Name: TreasureHuntRoute
+  m_EditorClassIdentifier:
+  routeName: Library Treasure Hunt
+  clues:
+  - rawClueText: I am a quiet space made for thinking, behind a numbered door on the
+      first floor. Step inside and focus — this is where great ideas are born.
+    targetNodeID:
+    visionTargetDescription:
+    referenceImages: []
+    variants:
+    - rawClueText: Find the study room on the first floor of the library marked with
+        the number 242.
+      targetNodeID:
+      visionTargetDescription: A door sign or plaque showing the number 242 on a study
+        room door.
+      referenceImages:
+      - {fileID: 2800000, guid: d248594ede47ee549bc684b5439854e1, type: 3}
+      - {fileID: 2800000, guid: 69b98c9ab81de224fa4fef082a9ce015, type: 3}
+      - {fileID: 2800000, guid: 7363346acef87f745a7065410dd49f2f, type: 3}
+      - {fileID: 2800000, guid: b2ce7db73907c75469555ef1e0c5709e, type: 3}
+      - {fileID: 2800000, guid: 0353a95b5eff3e941b1aa8ca1b3d0cb4, type: 3}
+      variants: []
+    - rawClueText: Find the study room on the first floor of the library marked with
+        the number 241.
+      targetNodeID:
+      visionTargetDescription: A door sign or plaque showing the number 241 on a study
+        room door.
+      referenceImages:
+      - {fileID: 2800000, guid: 6e389c2f966d8584c95f5b7bce8d2b7a, type: 3}
+      - {fileID: 2800000, guid: d77655e5a92aba34d8296e5d6726b262, type: 3}
+      - {fileID: 2800000, guid: 80737e04c9e7f24409257e68659681d4, type: 3}
+      - {fileID: 2800000, guid: cbc26a87df4898d4c85e70e0971ca668, type: 3}
+      - {fileID: 2800000, guid: 6a2ad5ae5d347b2499590f06795b1d29, type: 3}
+      - {fileID: 2800000, guid: 120a31e48064ecf45a2363c4f3dca8ce, type: 3}
+      variants: []
+  - rawClueText: Stories live here — not facts or science, but imagination. Find
+      the shelf where English tales are kept and let the words take you elsewhere.
+    targetNodeID:
+    visionTargetDescription: A library bookshelf section labelled English Fiction,
+      with rows of fiction novels.
+    referenceImages:
+    - {fileID: 2800000, guid: e93cc834109261e4090247644f94628e, type: 3}
+    - {fileID: 2800000, guid: 7d10e28043600b941b1cf954fb5e37ef, type: 3}
+    - {fileID: 2800000, guid: e9a195843017cbd40ac4b7d8a0f0da45, type: 3}
+    - {fileID: 2800000, guid: 7d1e1a11a752334479528e0bcfcc750f, type: 3}
+    - {fileID: 2800000, guid: 288de228ad27c404fb36cb0efdd8831a, type: 3}
+    - {fileID: 2800000, guid: 8372f26ae1c908c4d95819adc3bf96a1, type: 3}
+    - {fileID: 2800000, guid: c855f0f944f5ba044a8a15cb082f3ccf, type: 3}
+    variants: []
+  - rawClueText: Machines need instructions too. Head to the section where books about
+      software and programming languages are shelved — look for the code 005.362.
+    targetNodeID:
+    visionTargetDescription: A library bookshelf with books about software and programming
+      languages in the 005.362 section.
+    referenceImages:
+    - {fileID: 2800000, guid: a5ef2460ef9d14847bdc37f43f6db834, type: 3}
+    variants: []
+  - rawClueText: Your final stop is a row of screens on the second floor. Find the
+      place where students sit and tap away — the computers are waiting for you.
+    targetNodeID:
+    visionTargetDescription: A row of desktop computers in a library on the second
+      floor.
+    referenceImages:
+    - {fileID: 2800000, guid: fca13f46d1598fa4cb4f82613065813e, type: 3}
+    - {fileID: 2800000, guid: d9becd1992d2a5c438d43b887e1d3f3a, type: 3}
+    - {fileID: 2800000, guid: f0e2d85d805b5c548b7ea758c202bbd8, type: 3}
+    - {fileID: 2800000, guid: 703be5d309e57c74c879471ccfe231c1, type: 3}
+    - {fileID: 2800000, guid: b52c3d8f78345f24b9369e172b8b5ef9, type: 3}
+    variants: []

@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d6cc4c2d00a20945b5973da6f69ea03, type: 3}
+  m_Name: GenreMapper
+  m_EditorClassIdentifier:
+  genres:
+  - canonicalLabel: Computing
+    aliases:
+    - computer science
+    - programming
+    - coding
+    - software
+    - CS
+    - IT
+    - information technology
+    - technology
+    - computers
+    - software engineering
+    - web development
+    - networking
+    - databases
+    - artificial intelligence
+    - machine learning
+  - canonicalLabel: History
+    aliases:
+    - historical
+    - ancient history
+    - world history
+    - geography
+    - civilisation
+    - civilization
+    - archaeology
+    - medieval
+    - modern history
+    - wars
+    - empire
+    - empires
+  - canonicalLabel: Natural Sciences
+    aliases:
+    - biology
+    - chemistry
+    - physics
+    - science
+    - natural science
+    - botany
+    - zoology
+    - ecology
+    - geology
+    - astronomy
+    - earth science
+    - environmental science
+  - canonicalLabel: Mathematics
+    aliases:
+    - maths
+    - math
+    - statistics
+    - calculus
+    - algebra
+    - geometry
+    - trigonometry
+    - probability
+    - number theory
+    - pure mathematics
+    - applied mathematics
+  - canonicalLabel: Social Sciences
+    aliases:
+    - sociology
+    - psychology
+    - economics
+    - politics
+    - political science
+    - anthropology
+    - social science
+    - philosophy
+    - law
+    - education
+    - business
+    - management
+    - finance
+    - accounting
+  - canonicalLabel: Literature
+    aliases:
+    - english
+    - fiction
+    - novels
+    - poetry
+    - writing
+    - drama
+    - plays
+    - short stories
+    - literary criticism
+    - creative writing
+    - language
+    - linguistics
+    - arts
+    - humanities
