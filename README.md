@@ -64,11 +64,22 @@ Before running this project you will need:
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/ARLibraryNavigator.git
+git clone https://github.com/lazytitan1234/ARLibraryNavigator.git
 cd ARLibraryNavigator
 ```
 
-### 2. Open in Unity
+### 2. Add the Vuforia Engine package
+
+The Vuforia Engine package (`com.ptc.vuforia.engine-11.4.4.tgz`) exceeds GitHub's 100MB file size limit and is not included in the repository. You must add it manually before opening the project in Unity:
+
+1. Download **Vuforia Engine 11.4.4** from the [Vuforia Developer Portal](https://developer.vuforia.com/downloads/sdk)
+2. Select **Unity Extension (tgz)** as the download format
+3. Rename the downloaded file to exactly `com.ptc.vuforia.engine-11.4.4.tgz`
+4. Place it in the `Packages/` folder of the cloned repository
+
+> If you skip this step, Unity will show a package resolution error when opening the project.
+
+### 3. Open in Unity
 
 1. Open **Unity Hub**
 2. Click **Add project from disk**
